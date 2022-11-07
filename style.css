@@ -1,0 +1,153 @@
+:root {
+    --primary-color: #283D3B;
+    --secondary-color: white;
+    --primary-font: 'PT Serif';
+    --secondary-font: 'Inter';
+
+    /* palette: 283D3B, 197278, EDDDD4, C44536, 772E25 */
+}
+
+.navbar {
+    background-color: var(--primary-color) !important;
+    filter: drop-shadow(0px 3px 3px #192524);
+}
+
+#accent-text {
+    font-family: var(--primary-font), serif;
+    color: var(--secondary-color);
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3em;
+}
+
+#title {
+    font-family: var(--primary-font), serif;
+    font-weight: 600;
+    color: var(--primary-color);
+    font-size: 80px;
+    text-align: center;
+}
+
+#title-descrip {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--primary-color);
+    font-size: x-large;
+    text-align: center;
+}
+
+#ss {
+    display: flex;
+    max-width: 25em;
+    max-height: 25em;
+}
+
+.dark-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-color);
+    padding: 2em;
+}
+
+.light-sect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2em;
+}
+
+.subcontent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#light-header {
+    font-family: var(--primary-font), serif;
+    font-weight: 600;
+    color: var(--secondary-color);
+    text-align: center;
+}
+
+#dark-header {
+    font-family: var(--primary-font), serif;
+    font-weight: 600;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#dark-subheader {
+    font-family: var(--primary-font), serif;
+    color: var(--primary-color);
+    text-align: left;
+}
+
+#light-body-tx {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--secondary-color);
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+#dark-body-tx {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--primary-color);
+    font-style: normal;
+    font-size: large;
+    text-align: left;
+}
+
+#light-list-tx {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--secondary-color);
+    font-size: large;
+    text-align: left;
+    margin-right: 15em;
+    margin-left: 15em;
+}
+
+#light-link {
+    font-family: var(--secondary-font), sans-serif;
+    color: #EDDDD4;
+}
+
+#dark-link {
+    font-family: var(--secondary-font), sans-serif;
+    color: #197278;
+}
+
+#dark-center-tx {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--primary-color);
+    font-size: large;
+    text-align: center;
+}
+
+#dark-body-quote {
+    font-family: var(--secondary-font), sans-serif;
+    color: var(--primary-color);
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+    font-weight: 600;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#drop-bod {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#accord-bullets {
+    padding-right: 1em;
+}
